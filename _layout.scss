@@ -1,18 +1,15 @@
 // landing page
 
-*{
-    background-color: $color-primary
-    
-}
-
 #header1{
 
     .h1{
-        $font-display:$color-black
+       font-family: $font-display;
+       
     }
 
     
     .ptag{
-        $font-body:$color-black
+       font-size:$font-body;
+       color: $color-black;
     }
 }
