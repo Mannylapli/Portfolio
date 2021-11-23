@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  background-color: #3d3732;
 }
 
 a:link,
@@ -51,6 +51,7 @@ h1 {
   left: 53px;
   top: 664px;
   border-radius: 5;
+  color: #f99672;
 }
 
 #header1 .h1 {
