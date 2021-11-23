@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap');
+
+$font-body: "Montserrat", sans-serif;
+$font-display: "Montserrat", sans-serif;
+$font-navbar: "Roboto", sans-serif;
+
+$color-primary: rgba(61, 55, 50, 1);
+$color-secondary: rgba(244, 242, 233, 1);
+$color-coral: rgba(249, 150, 114, 1);
+$color-black: rgba(0, 0, 0, 0.67);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+    
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
