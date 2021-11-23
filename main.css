@@ -39,6 +39,11 @@ a:visited {
   font-size: 1.2rem;
 }
 
+h1 {
+  height: 10vh;
+  width: 33vh;
+}
+
 .buttonVMW {
   position: absolute;
   width: 180px;
@@ -46,4 +51,12 @@ a:visited {
   left: 53px;
   top: 664px;
   border-radius: 5;
+}
+
+#header1 .h1 {
+  font-family: "Montserrat", sans-serif;
+}
+#header1 .ptag {
+  font-size: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 0.67);
 }
