@@ -25,11 +25,13 @@ a:visited {
 }
 .navbar__logo svg {
   width: 100%;
+  background-color: black;
 }
 .navbar__links a {
   color: white;
   padding-inline: 10px;
   font-family: "Roboto", sans-serif;
+  background-color: black;
 }
 .navbar__icons {
   color: white;
@@ -37,6 +39,7 @@ a:visited {
 .navbar__icons i {
   padding-inline: 10px;
   font-size: 1.2rem;
+  background-color: black;
 }
 
 h1 {
