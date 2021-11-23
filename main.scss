@@ -15,4 +15,64 @@ $color-black: rgba(0, 0, 0, 0.67);
     padding: 0;
     box-sizing: border-box;
     font-family: $font-body;
+    
 }
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+.navbar{
+
+    height: 10vh;
+    background-color: $color-primary;
+    padding: 0 40;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo {
+        width:  65px;
+        svg{
+            width:  100%;
+        }
+        
+    }
+
+    &__links {
+        a{
+            color: white;
+            padding-inline: 10px;
+            font-family: $font-navbar;
+        }
+
+    }
+
+    &__icons{
+        color: white;
+      
+        i{
+            padding-inline: 10px;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+// landing page
+
+#header{
+
+    .h1{
+        $font-display:$color-black
+    }
+
+    
+    .ptag{
+        $font-body:$color-black
+    }
+}
+
+
+
