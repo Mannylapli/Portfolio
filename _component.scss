@@ -35,6 +35,12 @@
     }
 }
 
+h1{
+    height: 10vh;
+    width: 33vh;
+    $font-display:$font-display
+}
+
 .buttonVMW{
 position: absolute;
 width: 180px;
@@ -42,4 +48,5 @@ height: 50px;
 left: 53px;
 top: 664px;
 border-radius: 5;
+$color-coral:$color-coral;
 }
