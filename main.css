@@ -13,7 +13,7 @@ a:visited {
 
 .navbar {
   height: 10vh;
-  background-color: #3d3732;
+  background-color: black;
   padding: 0 40;
   display: flex;
   width: 100%;
@@ -41,7 +41,8 @@ a:visited {
 
 h1 {
   height: 10vh;
-  width: 33vh;
+  width: auto;
+  font-style: "Montserrat", sans-serif;
 }
 
 .buttonVMW {

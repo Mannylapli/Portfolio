@@ -12,6 +12,7 @@
         width:  65px;
         svg{
             width:  100%;
+            background-color: black;
         }
         
     }
@@ -21,6 +22,7 @@
             color: white;
             padding-inline: 10px;
             font-family: $font-navbar;
+            background-color: black;
         }
 
     }
@@ -31,6 +33,7 @@
         i{
             padding-inline: 10px;
             font-size: 1.2rem;
+            background-color: black;
         }
     }
 }
