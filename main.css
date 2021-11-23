@@ -60,6 +60,12 @@ h1 {
 
 #header1 .h1 {
   font-family: "Montserrat", sans-serif;
+  color: white;
+  position: absolute;
+  width: 547px;
+  height: 78px;
+  left: 53px;
+  top: 300px;
 }
 #header1 .ptag {
   font-size: "Montserrat", sans-serif;
