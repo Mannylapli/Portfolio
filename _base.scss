@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 $font-body: "Montserrat", sans-serif;
 $font-display: "Montserrat", sans-serif;
@@ -8,13 +8,17 @@ $color-primary: rgba(61, 55, 50, 1);
 $color-secondary: rgba(244, 242, 233, 1);
 $color-coral: rgba(249, 150, 114, 1);
 $color-black: rgba(0, 0, 0, 0.67);
+$color-gray: gray;   
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+}
+
+body{
     background-color: $color-primary;
-    
 }
 
 a:link,

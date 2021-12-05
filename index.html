@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+
 </head>
 
 <body>
     <nav class="navbar">
     
         <div class="navbar__logo">
-            <svg width="172" height="124" viewBox="0 0 172 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="172" height="100" viewBox="0 0 172 124" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M104.086 91.0845C110.06 102.581 126.507 102.581 132.481 91.0845L152.281 52.9793C157.816 42.3282 150.087 29.602 138.084 29.602H98.4836C86.4804 29.602 78.7514 42.3282 84.2859 52.9793L104.086 91.0845Z" fill="#9FD9CC"/>
                 <path d="M41.0482 29.2211C45.8999 19.8715 59.2742 19.8715 64.1259 29.2211L88.2755 75.7584C92.7661 84.4121 86.4861 94.7463 76.7366 94.7463H28.4375C18.688 94.7463 12.408 84.4121 16.8987 75.7584L41.0482 29.2211Z" fill="#FFDDE3"/>
                 <path d="M54.5516 50.4062L61.9344 70.0234L69.2997 50.4062H75.0477V76H70.618V67.5625L71.0575 56.2773L63.4989 76H60.3173L52.7762 56.2949L53.2157 67.5625V76H48.786V50.4062H54.5516ZM84.7684 72.4492H96.3876V76H80.3212V50.4062H84.7684V72.4492ZM104.245 66.4902V76H99.7977V50.4062H109.589C112.448 50.4062 114.716 51.1504 116.391 52.6387C118.079 54.127 118.923 56.0957 118.923 58.5449C118.923 61.0527 118.097 63.0039 116.444 64.3984C114.804 65.793 112.501 66.4902 109.536 66.4902H104.245ZM104.245 62.9219H109.589C111.171 62.9219 112.378 62.5527 113.21 61.8145C114.042 61.0645 114.458 59.9863 114.458 58.5801C114.458 57.1973 114.036 56.0957 113.192 55.2754C112.349 54.4434 111.188 54.0156 109.712 53.9922H104.245V62.9219Z" fill="#257BC2" style="mix-blend-mode:luminosity"/>
@@ -36,73 +37,96 @@
         </div>
     </nav>
 
-<div id="header1">
-    <header>
-        <div class="h1">
-             <h1>Manuel La Placa</h1>
-        </div>
-        <div class="h2a">
-            <h2>Junior Web Developer</h2>
-        </div>
-        <div class="ptag">
+<div class="hero__container">
+    <div id="header1">
+        <header>
+            <!-- <div class="h1">
+                <h1>Manuel La Placa</h1>
+            </div>
+            <div class="h2a">
+                <h2>Junior Web Developer</h2>
+            </div> -->
+
+            <h1> 
+                <span> Manuel La Placa</span> 
+                <span class="head-title"> Junior Web Developer</span>
+            </h1>
+            
             <p> Hi. I’m Manuel, 
                 a Web Developer literate in Cyberpsychology 
                 with a passion for UI/UX 
             </p>
-        </div>
-        <div class="buttonVMW">
-            <button href="#">View my works</button>
-        </div>
-  </header>
+        
+            <button class="buttonVMW" href="#">View my works</button>
+            
+        </header>
+    </div>
 </div>
 
   <!--Skills section-->
+<div class="skills-container">
+    <h3 class="skills">SKILLS</h3>
 
-<h2>SKILLS</h2> 
+    <div class="icons"> 
+        <span style="font-size: 48px; color: #E44D26;">
+        <i class="fab fa-html5"></i></span>
 
-<div class="icons"> SKILLS ICONS</div>
-<i class="fab fa-html5"></i>
-<i class="fab fa-sass"></i>
-<i class="fas fa-atom"></i>
-<i class="fab fa-js-square"></i>
-<i class="fab fa-css3-alt"></i>
+        <span style="font-size: 48px; color: blueviolet;">
+        <i class="fab fa-sass"></i></span>
+
+        <span style="font-size; color: #257BC2;">
+        <i class="fas fa-atom fa-3x"></i></span>
+        
+        <span style="font-size: 48px; color: #FDD83C;">
+        <i class="fab fa-js-square"></i></span>
+
+        <span style="font-size: 48px; color: #2965F1;">
+        <i class="fab fa-css3-alt"></i></span>
+    </div>
 </div>
 
 <!-- Project section -->
 
-<h2>PROJECTS</h2>
+<div id="projectstitle">PROJECTS</div>
 
 <div id="projectcs">
 
         <div class="card">
+            <div class="box"></div>
             <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
                 Beatae accusantium facilis delectus veniam voluptatibus consequatur!
                 Vel similique maxime recusandae ipsa a</p> </span>
         </div>
 
-        <div class="card">  <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        <div class="card">
+            <div class="box"></div>  
+            <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
             Beatae accusantium facilis delectus veniam voluptatibus consequatur!
             Vel similique maxime recusandae ipsa a</p> </span>
         </div>
     <hr/>
 
-        <div class="card">  <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        <div class="card"> <div class="box"></div> 
+        <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
             Beatae accusantium facilis delectus veniam voluptatibus consequatur!
             Vel similique maxime recusandae ipsa a</p> </span>
         </div>
 
-        <div class="card">  <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        <div class="card">  <div class="box"></div>
+        <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
             Beatae accusantium facilis delectus veniam voluptatibus consequatur!
             Vel similique maxime recusandae ipsa a</p> </span>
         </div>
     <hr/>
 
-        <div class="card"> <p> <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        <div class="card"> <div class="box"></div>
+        <p> <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
             Beatae accusantium facilis delectus veniam voluptatibus consequatur!
             Vel similique maxime recusandae ipsa a</p> </span>
         </div>
 
-        <div class="card"> <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
+        <div class="card"> <div class="box"></div> 
+        <span> <p>ipsum dolor sit amet, consectetur adipisicing elit. 
             Beatae accusantium facilis delectus veniam voluptatibus consequatur!
             Vel similique maxime recusandae ipsa a</p> </span>
         </div>
@@ -112,26 +136,25 @@
 
 <!-- About section -->
 
-<div id="header2">
-    <h2>About</h2>
-        <div class="buttonRMR">
-            <button class="resume">Read my resume</button>
-        </div>
+<div id="about">
+    <h3>About</h3>
+     <p>
+        Hi there, 
+        I’m Manuel La Placa and I’m a Software Developer
+        with the passion for transforming complex problems 
+        into simple solutions.
+    </p>
+    <button class="buttonRMR"> Read my resume </button>
+        
 
-    <div class="contact icons">
-        <i class="fab fa-github-square"></i>
+    <div class="contact__icons">
+        <i class="fab fa-github-square" ></i>
         <i class="fab fa-linkedin"></i>
         <i class="fas fa-envelope-square"></i>
     </div>
-</header>
 
-<p>
-    Hi there, 
-    I’m Manuel La Placa and I’m a Software Developer
-    with the passion for transforming complex problems 
-    into simple solutions.
-</p>
-
+   
+</div>
 
 </body>
 
