@@ -1,0 +1,78 @@
+// landing page
+
+
+.tag{
+   margin-top: 90px;
+   font-family: $font-display;
+   font-style: normal;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   color: $color-gray;
+   font-size: 25px;
+   width: 827px;
+   height: 120px;
+
+}
+
+// .buttonVMW .buttonVMW{
+//    border-radius: 15px;
+//    color: coral;
+   
+// }
+
+// .skills{
+//    font-family: $font-display;
+//    font-style: normal;
+//    font-weight: bold;
+//    margin-top: 600px;
+//    font-size: 64px;
+//    line-height: 78px;
+//    max-width: 100%;
+//    display: flex;
+//    padding: 15px;
+//    // border-bottom: coral 4px;
+//    width: 227px;
+//    display: flex;
+//    align-content: center;
+//     border: red;
+// }
+
+
+// .icons{
+//    margin-top: 125px;
+//    border-left: solid gray 4px;
+//    border-right: solid gray 4px;
+//    margin-left: 80px;
+//    margin-right: 80px;
+//    box-sizing: border-box;
+//    height: 300px;
+//    padding: 80px;
+//    display: flex;
+//    align-items: center;
+//    justify-content: space-evenly;
+   
+// }
+
+#projectstitle{
+   font-family: $font-display;
+   font-style: normal;
+   font-weight: bold;
+   margin-top: 300px;
+   font-size: 64px;
+   line-height: 78px;
+   display: flex;
+   align-items: flex-start;
+}
+
+.card{
+   font-family: $font-body;
+   font-weight: lighter;
+   text-align: end;
+   margin-top: 180px;
+   padding: 30px;
+
+}
+
+
+   

@@ -1,0 +1,289 @@
+.navbar{
+
+    height: 10vh;
+    background-color: black;
+    padding: 0 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo {
+        width:  65px;
+        height: 40px;
+        svg{
+            width:  100%;
+            height: 100%;
+            background-color: black;
+        }
+        
+    }
+
+    &__links {
+        background-color: black;
+        a{
+            color: white;
+            padding-inline: 10px;
+            font-family: $font-navbar;
+            background-color: black;
+        }
+
+    }
+
+    &__icons{
+        color: white;
+        background-color: black;
+      
+        i{
+            padding-inline: 10px;
+            font-size: 1.2rem;
+            background-color: black;
+        }
+    }
+}
+
+//landing page
+
+
+.hero__container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 40px;
+
+    h1{
+        
+        
+        font-family: $font-display;
+        display: flex;
+        flex-direction: column;
+        font-weight:bold ;
+        font-size: 54px;
+        color: $color-gray;
+    
+
+        .head-title{
+            font-size: 3rem;
+
+        }
+
+    }
+
+   
+    p{
+    
+        font-family: $font-body;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        width: 40%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        
+
+        color: #A8B5C8;
+    }
+
+        .buttonVMW {
+        width: 180px;
+        height: 50px;
+        color: white;
+        border-radius: 8px;
+        background-color: coral;
+        }
+
+
+}
+
+
+
+    // skills page
+
+.skills-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    
+    
+   
+    .skills {
+
+        text-align: center;
+        font-family: $font-display;
+        font-size: 64px;
+        //border-bottom: 4px solid fuchsia;
+        text-decoration: underline fuchsia 2px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        
+        
+      
+
+    //     font-family: $font-display;
+    //     font-style: normal;
+    //     font-weight: bold;
+    //     display: flex;
+    //     justify-items: center;
+    //     margin-top: 600px;
+    //     font-size: 64px;
+    //     line-height: 78px;
+    //     max-width: 100%;
+    //     padding: 15px;
+    //     width: auto;
+    //     border-bottom: solid coral 3px; 
+    //  } 
+    }
+    .icons{
+        margin-top: 10px;
+        background-color: #979727;
+        border-left: solid gray 4px;
+        border-right: solid gray 4px;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: 500px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        height: 500px;
+        color: blue;
+    
+    }
+
+    //  .icons{
+    //     margin-top: 125px;
+    //     border-left: solid gray 4px;
+    //     border-right: solid gray 4px;
+    //     margin-left: 80px;
+    //     margin-right: 80px;
+    //     // box-sizing: border-box;
+    //     height: 300px;
+    //     padding: 80px;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-evenly;
+    //     .fab{
+    //         width: 30px;
+    //         height: 30px;
+    //         line-height: 80px;
+    //     }
+    //    .fas{
+    //            width: 30px;
+    //            height: 30px;
+    //            line-height: 80px;
+    //        }
+    //  }
+    }
+
+     
+   
+//Projects page 
+
+#projectstitle{
+    border-bottom: solid coral 3px;
+    width: 100%;
+    position: sticky;
+    left: 30px;
+    top: 0 ;
+    margin-left: 30px;
+}
+
+#projectcs{
+
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  
+
+    .card{
+        display: flex;
+        text-align: end;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: min($numbers: 720);
+        flex-wrap: max($numbers: 720);
+    }
+
+    .box{
+        width: 150px;
+        height: 150px; 
+        margin-left: 10px;
+        background-color: gray;
+        border: solid black 2px;
+        border-radius: 8px;
+        box-shadow: -10px -10px salmon;
+       
+    }
+    
+        
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    h3{
+        font-family: $font-display;
+        font-size: 72px;
+        color: sandybrown;
+        margin-left: 41px;
+        margin-top: 100px;
+        
+    }
+
+    .buttonRMR{
+        width: 294px;
+        height: 65px;
+        margin-left: 41px;
+        margin-top: 213px;
+        font-family: $font-body;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+        background-color: rgba(0, 0, 0, 0.67);
+        border-radius: 14px;
+
+    }
+    
+    .contact__icons{
+        top: 200px;
+        left: 30px;
+        position: absolute;
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        flex-direction: row;
+        
+        i{
+            margin-inline: 20px;
+            font-size: 1.4rem;
+            color: white;
+        }
+
+
+    }
+    p{
+        width: 30%;
+        border: solid #984855;
+        line-height: 24px;
+        font-family: $font-body;
+        font-size: 16px;
+        background-color: #984855;
+        align-self: flex-end;
+    }
+}
+    
+
+    
+
+
+    
