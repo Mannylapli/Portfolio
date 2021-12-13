@@ -41,6 +41,11 @@ a:visited {
   font-family: "Roboto", sans-serif;
   background-color: black;
 }
+@media screen and (max-width: 768px) {
+  .navbar__links {
+    display: none;
+  }
+}
 .navbar__icons {
   color: white;
   background-color: black;
@@ -50,15 +55,25 @@ a:visited {
   font-size: 1.2rem;
   background-color: black;
 }
+@media screen and (max-width: 768px) {
+  .navbar__icons {
+    display: none;
+  }
+}
 
-.hero__container {
-  height: 90vh;
+#header1 {
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   padding-top: 150px;
   padding-left: 40px;
 }
-.hero__container h1 {
+@media screen and (max-width: 768p) {
+  #header1 {
+    display: none;
+  }
+}
+#header1 h1 {
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
@@ -66,10 +81,15 @@ a:visited {
   font-size: 54px;
   color: gray;
 }
-.hero__container h1 .head-title {
+@media screen and (max-width: 768p) {
+  #header1 h1 {
+    display: none;
+  }
+}
+#header1 h1 .head-title {
   font-size: 3rem;
 }
-.hero__container p {
+#header1 p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -80,7 +100,12 @@ a:visited {
   margin-bottom: 50px;
   color: #A8B5C8;
 }
-.hero__container .buttonVMW {
+@media screen and (max-width: 768px) {
+  #header1 p {
+    width: 70%;
+  }
+}
+#header1 .buttonVMW {
   width: 180px;
   height: 50px;
   color: white;
@@ -88,55 +113,94 @@ a:visited {
   background-color: coral;
 }
 
-.skills-container {
+.skills__container {
   display: flex;
   flex-direction: column;
   justify-items: center;
   width: 100%;
+  flex-wrap: wrap;
 }
-.skills-container .skills {
+@media screen and (max-width: 768px) {
+  .skills__container {
+    flex-direction: column;
+    width: 70%;
+  }
+}
+.skills__container .skills {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 64px;
   text-decoration: underline fuchsia 2px;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
+  text-align: center;
+  margin-top: 60px;
 }
-.skills-container .icons {
+.skills__container .icons {
   margin-top: 10px;
   background-color: #979727;
   border-left: solid gray 4px;
   border-right: solid gray 4px;
-  margin-left: 10px;
-  margin-right: 10px;
   line-height: 500px;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  align-items: center;
   height: 500px;
   color: blue;
+  width: 80%;
+  margin-inline: auto;
+  flex-wrap: wrap;
+}
+.skills__container .icons i {
+  font-size: 48px;
+  width: 50px;
+}
+.skills__container .icons .fa-html5 {
+  color: #E44D26;
+}
+.skills__container .icons .fa-sass {
+  color: blueviolet;
+}
+.skills__container .icons .fa-atom {
+  color: #257BC2;
+}
+.skills__container .icons .fa-css3-alt {
+  color: #2965F1;
+}
+.skills__container .icons .fa-js-square {
+  color: #FDD83C;
 }
 
-#projectstitle {
+.projects-title {
   border-bottom: solid coral 3px;
-  width: 100%;
   position: sticky;
-  left: 30px;
-  top: 0;
-  margin-left: 30px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-top: 10vh;
 }
 
-#projectcs {
+#project-cs {
   margin-left: 30px;
   margin-right: 30px;
-}
-#projectcs .card {
   display: flex;
-  text-align: end;
-  margin-left: 10px;
+  flex-wrap: wrap;
 }
-#projectcs .box {
+#project-cs .card {
+  display: flex;
+  text-align: justify;
+  margin-left: 10px;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  #project-cs .card {
+    flex-direction: column;
+  }
+}
+#project-cs .card .p {
+  width: 80%;
+  margin-left: 20px;
+}
+#project-cs .box {
   width: 150px;
   height: 150px;
   margin-left: 10px;
@@ -159,14 +223,14 @@ a:visited {
   margin-top: 100px;
 }
 #about .buttonRMR {
-  width: 294px;
+  width: 255px;
   height: 65px;
   margin-left: 41px;
   margin-top: 213px;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 46 px;
   line-height: 29px;
   color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0.67);
@@ -196,6 +260,13 @@ a:visited {
   background-color: #984855;
   align-self: flex-end;
 }
+@media screen and (max-width: 768px) {
+  #about p {
+    align-self: center;
+    width: 80%;
+    margin-top: 120px;
+  }
+}
 
 .tag {
   margin-top: 90px;
@@ -214,11 +285,7 @@ a:visited {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-  margin-top: 300px;
   font-size: 64px;
-  line-height: 78px;
-  display: flex;
-  align-items: flex-start;
 }
 
 .card {
