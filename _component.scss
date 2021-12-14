@@ -138,7 +138,8 @@
     font-size: 64px;
     text-decoration: underline fuchsia 2px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
+    padding-top: 160px;
     // @media screen and (max-width: 500px) {
     //     display: none;
     // }
@@ -146,7 +147,6 @@
 
     .icons{
     margin-top: 10px;
-    background-color: #979727;
     border-left: solid gray 4px;
     border-right: solid gray 4px;
     line-height: 500px;
@@ -198,6 +198,7 @@
     font-family: $font-display;
     font-size: 50px;
     margin-top: 10vh;
+    padding-top: 260px;
 }
 
 #project-cs{
@@ -246,6 +247,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    padding-top: 160px;
 
     h3{
         font-family: $font-display;
@@ -276,7 +278,8 @@
         top: 200px;
         left: 30px;
         position: absolute;
-        margin-top: 20px;
+        margin-top: 200px;
+        padding-top: 0px;
         height: 40px;
         width: 40px;
         display: flex;
